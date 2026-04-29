@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Мои ссылки</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            padding: 20px;
+            margin: 0;
+            background: var(--tg-theme-bg-color);
+            color: var(--tg-theme-text-color);
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            margin: 10px 0;
+            background: var(--tg-theme-button-color);
+            color: var(--tg-theme-button-text-color);
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+        .title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .note {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="title"> Полезные ссылки</h2>
+
+   <button class="button" onclick="openLink('https://forms.gle/https://expert.docupilot.app/dashboard/documents/create/f4cc87e7/5c334447')">
+    Заполнить договор
+</button>
+
+</body>
+</html>
