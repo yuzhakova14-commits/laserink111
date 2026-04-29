@@ -35,28 +35,17 @@
 <body>
     <h2 class="title">📌 Полезные ссылки</h2>
 
-    <button class="button" onclick="openLink('https://example.com/page1')">
-        Заполнить договор
-    </button>
+<button class="button" onclick="openLink('https://docs.google.com/your-doc')">
+    Заполнить договор
+</button>
 
-    <button class="button" onclick="openLink('https://example.com/page2')">
-        Скачать договор
-    </button>
+<button class="button" onclick="openLink('https://disk.yandex.ru/your-file.pdf')">
+    Скачать договор
+</button>
 
-    <button class="button" onclick="openLink('https://example.com/page3')">
-        Все документы
-    </button>
+<button class="button" onclick="openLink('https://ваш-сайт.com/documents')">
+    Все документы
+</button>
 
-    <script>
-        // Инициализируем Telegram WebApp
-        const tg = window.Telegram.WebApp;
-        tg.ready();
-        tg.expand(); // Растягиваем на весь экран
-
-        function openLink(url) {
-            // Открываем ссылку во внешнем браузере
-            tg.openLink(url);
-        }
-    </script>
 </body>
 </html>
